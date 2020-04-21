@@ -1,0 +1,35 @@
+.text-input-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.text-input {
+  height: 24px;
+  border: none;
+  border-radius: 24px;
+  padding: 4px 20px;
+  outline: none;
+  width: 100%;
+}
+
+.text-input-icon-button {
+  border: none;
+  border-radius: 100%;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  background: rgb(138, 182, 221);
+  right: 4px;
+  top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  cursor: pointer;
+}
+
+.text-input-icon-button img {
+  width: 16px;
+  height: 16px;
+}

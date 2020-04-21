@@ -1,0 +1,26 @@
+.search-page {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgb(90, 197, 239), rgb(25, 101, 179));
+  display: flex;
+  padding: 10px;
+}
+
+.search-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  margin: 0px auto;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+
+.search-title {
+  color: white;
+  font-weight: bold;
+}
